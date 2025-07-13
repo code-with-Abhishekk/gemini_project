@@ -7,7 +7,7 @@ const suggestions =document.querySelectorAll(".suggestion-list .suggestion");
 let userMessage=null;
 let isResponseGenerating = false;
 
-const API_KEY = "AIzaSyC3W_1d_pxo-Qlqs0O4bHt8fJYdkVYka0g";
+const API_KEY = "  ";    //Add Your API Key here
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 const createMessageElement = (content, ...classes) => {
